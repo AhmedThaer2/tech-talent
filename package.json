@@ -2,12 +2,12 @@
   "name": "tech-talent",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+    "scripts": {
+        "dev": "next dev -p 6969",
+        "build": "next build",
+        "start": "next start -p 6969",
+        "lint": "next lint"
+    },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

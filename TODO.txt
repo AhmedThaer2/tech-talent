@@ -1,6 +1,6 @@
 The project list work
 
-1-create project. complete
+1-create project ✅
 2- create home page 
 3- create about as page
 4- create service page
