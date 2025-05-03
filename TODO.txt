@@ -1,0 +1,10 @@
+The project list work
+
+1-create project. complete
+2- create home page 
+3- create about as page
+4- create service page
+5- create blog page
+6- create sidebar page
+8- create contact page
+
