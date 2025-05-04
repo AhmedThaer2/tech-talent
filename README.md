@@ -11,6 +11,6 @@ pnpm dev i
 pnpm dev
 ```
 
-Open [http://localhost:6969](http://localhost:6969) with your browser to see the result.
+Open [http://localhost:6969](http://localhost:6968) with your browser to see the result.
 
 

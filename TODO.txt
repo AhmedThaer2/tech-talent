@@ -1,10 +1,17 @@
 The project list work
 
-1-create project ✅
-2- create home page 
-3- create about as page
-4- create service page
-5- create blog page
-6- create sidebar page
-8- create contact page
+https://zerostrike.dev
 
+create project ✅
+
+Snorpiii work list
+
+1- create about as page
+2- create blog page
+3- create contact page
+
+Ahmed work list
+
+1- create service page
+2- create home page 
+3- create sidebar page
