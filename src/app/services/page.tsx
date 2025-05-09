@@ -6,8 +6,6 @@ import Nav from '@/components/shared/Nav'
 const page = () => {
   return (
   <div className='bg-black text-white'>
-    {/* Navigation Bar */}
-    <Nav />
     {/* Hero Section */}
       <section className="container mx-auto py-16 md:py-24 px-4 md:px-6 flex flex-col items-center">
         <div className="max-w-3xl mx-auto text-center space-y-6">

@@ -11,6 +11,6 @@ Snorpiii work list
 
 Ahmed work list
 
-[] create service page
-[] create home page 
+[x] create service page
+[x] create home page 
 [] create sidebar page

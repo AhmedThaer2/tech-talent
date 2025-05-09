@@ -1,12 +1,10 @@
 import { Shield, FileText, ChevronLeft } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import Nav from "@/components/shared/Nav"
 import ServiceCards from "@/components/shared/service-cards"
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
-      <Nav />
       {/* Hero Section */}
       <section className="container mx-auto py-24 md:py-32 px-4 md:px-6 flex flex-col items-center">
         <div className="max-w-3xl mx-auto text-center space-y-6">
