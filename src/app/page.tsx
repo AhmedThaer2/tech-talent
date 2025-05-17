@@ -9,11 +9,10 @@ export default function Home() {
       <section className="container mx-auto py-24 md:py-32 px-4 md:px-6 flex flex-col items-center">
         <div className="max-w-3xl mx-auto text-center space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-            Be Proactive... Stop Threats Before They Begin
+            كن استباقيًا... أوقف التهديدات قبل أن تبدأ
           </h1>
           <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-            In a world where threats are accelerating, traditional protection methods reveal your weaknesses. Our smart
-            defense begins with a digital approach.
+            في عالم تتسارع فيه التهديدات، تكشف طرق الحماية التقليدية عن نقاط ضعفك. تبدأ دفاعاتنا الذكية بنهج رقمي.
           </p>
           <Button variant="destructive" size="lg" className="mt-8 rounded-none">
             Discover More <ChevronLeft className="ml-2 h-4 w-4" />
@@ -27,20 +26,19 @@ export default function Home() {
           {/* Service Card 1 */}
           <div className="bg-red-700 p-8 rounded-lg flex flex-col items-center text-center">
             <FileText className="h-16 w-16 mb-6 text-white" />
-            <h3 className="text-2xl font-bold mb-4">Plans & Strategies</h3>
+            <h3 className="text-2xl font-bold mb-4">الخطط والاستراتيجيات</h3>
             <p className="text-white/80">
-              We excel in creating customized plans and strategies derived from years of experience in the field of
-              cybersecurity to ensure the highest levels of protection for your digital assets.
+         
+نحن نتميز بوضع خطط واستراتيجيات مخصصة مستوحاة من سنوات من الخبرة في مجال الأمن السيبراني لضمان أعلى مستويات الحماية لأصولك الرقمية.
             </p>
           </div>
 
           {/* Service Card 2 */}
           <div className="bg-gray-900 p-8 rounded-lg flex flex-col items-center text-center">
             <Shield className="h-16 w-16 mb-6 text-white" />
-            <h3 className="text-2xl font-bold mb-4">Privacy Protection</h3>
+            <h3 className="text-2xl font-bold mb-4">حماية الخصوصية</h3>
             <p className="text-white/80">
-              We protect your privacy with automatic design and by adopting strict security techniques and measures to
-              ensure the highest levels of data protection.
+              نحن نحمي خصوصيتك باستخدام تصميم تلقائي واتباع تقنيات وإجراءات أمنية صارمة لضمان أعلى مستويات حماية البيانات.
             </p>
           </div>
         </div>

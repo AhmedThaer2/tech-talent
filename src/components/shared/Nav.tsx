@@ -15,12 +15,10 @@ const Nav = () => {
   };
 
   const navItems = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Our Services", href: "/services" },
-    { name: "Training", href: "/training" },
-    { name: "Academy", href: "/academy" },
-    { name: "Contact Us", href: "/contact" },
+    { name: "الرئيسية", href: "/" },
+    { name: "من نحن", href: "/about" },
+    { name: "خدماتنا", href: "/services" },
+    { name: "اتصل بنا", href: "/contact" },
   ]
   return (
     <header className="container mx-auto flex items-center justify-between py-4 px-4 md:px-6 relative">
@@ -59,7 +57,7 @@ const Nav = () => {
         <div className="flex flex-col items-center justify-center h-full space-y-8 p-4">
           {/* SMT Logo inside the sidebar */}
           <Link href="/" className="text-3xl font-bold mb-8 text-red-500" onClick={() => setIsSidebarOpen(false)}>
-            Tech Talent
+            موهبة التقنية
           </Link>
 
           {navItems.map((item) => (
@@ -73,7 +71,7 @@ const Nav = () => {
             </Link>
           ))}
           <Button variant="destructive" size="lg" className="mt-4 rounded-none" onClick={() => setIsSidebarOpen(false)}>
-            Request Services
+            اطلب خدمة
           </Button>
         </div>
       </div>

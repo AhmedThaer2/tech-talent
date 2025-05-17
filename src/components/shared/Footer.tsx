@@ -106,13 +106,13 @@ const Footer = () => {
           <p className="text-gray-500 text-xs">© {currentYear} Tech Talent Security. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy-policy" className="text-gray-500 hover:text-red-500 text-xs">
-              Privacy Policy
+              سياسة الخصوصية
             </Link>
             <Link href="/terms" className="text-gray-500 hover:text-red-500 text-xs">
-              Terms of Service
+              شروط الخدمة
             </Link>
             <Link href="/cookies" className="text-gray-500 hover:text-red-500 text-xs">
-              Cookie Policy
+              سياسة الكوكيز
             </Link>
           </div>
         </div>

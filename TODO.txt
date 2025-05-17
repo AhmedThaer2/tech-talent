@@ -5,12 +5,12 @@ create project ✅
 
 Snorpiii work list
 
-[] create about as page
-[] create blog page
-[] create contact page
+[] إنشاء صفحة حول
+[] إنشاء صفحة مدونة
+[] إنشاء صفحة اتصال
 
 Ahmed work list
 
-[x] create service page
-[x] create home page 
-[] create sidebar page
+[x] إنشاء صفحة خدمة
+[x] إنشاء الصفحة الرئيسية 
+[] إنشاء صفحة الشريط الجانبي
