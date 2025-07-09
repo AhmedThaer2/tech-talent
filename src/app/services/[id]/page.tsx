@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation"
 
-import { Shield, Clock, DollarSign, CheckCircle, ArrowRight } from "lucide-react"
+import { Shield, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { getAllServices, getServiceById } from "@/lib/services-data"
 import Contact from "@/components/shared/Contact"
@@ -19,8 +19,8 @@ export async function generateStaticParams() {
   }))
 }
 
-export default function ServicePage({ params }: ServicePageProps) {
-  const service = getServiceById(params.id)
+export default async function ServicePage({ params }: ServicePageProps) {
+  const service = await getServiceById(params.id)
 
   if (!service) {
     notFound()
