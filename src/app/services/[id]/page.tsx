@@ -6,21 +6,17 @@ import { getAllServices, getServiceById } from "@/lib/services-data"
 import Contact from "@/components/shared/Contact"
 import Link from "next/link"
 
-interface ServicePageProps {
-  params: {
-    id: string
-  }
-}
-
 export async function generateStaticParams() {
-  const services = getAllServices()
+  const services = await getAllServices()
   return services.map((service) => ({
     id: service.id,
   }))
 }
 
-export default async function ServicePage({ params }: ServicePageProps) {
-  const service = await getServiceById(params.id)
+export default async function ServicePage({ params }: { params: { id: string } }) {
+
+    const { id } = await params
+  const service = await getServiceById(id)
 
   if (!service) {
     notFound()
